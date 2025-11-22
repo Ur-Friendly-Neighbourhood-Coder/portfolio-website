@@ -1,10 +1,73 @@
 body {
-    font-family: Arial;
-    background: #111;
-    color: #fff;
-    padding: 40px;
+    background: #000;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    color: #00eaff;
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.highlight {
+    color: cyan;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid cyan;
+    margin-bottom: 20px;
+}
+
+/* Contact Button */
+.contact-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: cyan;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Projects Section */
+.projects h2 {
+    margin-top: 60px;
+    text-align: center;
+    color: cyan;
+    font-size: 28px;
+}
+
+.project-card {
+    background: #111;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 4px solid cyan;
+    border-radius: 6px;
+}
+
+.project-card h3 {
+    color: cyan;
+}
+
+.project-card a {
+    color: yellow;
+    text-decoration: none;
 }
