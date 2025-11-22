@@ -1,5 +1,5 @@
 body {
-    background: #000;
+    background-color: #000;
     color: white;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,67 +7,31 @@ body {
 }
 
 .container {
-    width: 90%;
-    max-width: 900px;
-    margin: auto;
-    padding: 40px 20px;
-}
-
-.hero {
+    max-width: 800px;
+    margin: 80px auto;
     text-align: center;
-    padding: 50px 0;
 }
 
-.highlight {
+h1 {
+    font-size: 48px;
     color: cyan;
 }
 
-.hero p {
-    font-size: 20px;
-    margin-bottom: 20px;
+h2 {
+    font-size: 32px;
+    margin-top: 10px;
 }
 
-/* Profile Picture */
-.profile-pic {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    border: 3px solid cyan;
-    margin-bottom: 20px;
+p {
+    font-size: 18px;
+    margin-top: 10px;
 }
 
-/* Contact Button */
-.contact-btn {
-    display: inline-block;
-    padding: 12px 20px;
-    background: cyan;
-    color: black;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
+.contact {
+    margin-top: 40px;
 }
 
-/* Projects Section */
-.projects h2 {
-    margin-top: 60px;
-    text-align: center;
-    color: cyan;
-    font-size: 28px;
-}
-
-.project-card {
-    background: #111;
-    padding: 20px;
-    margin: 20px 0;
-    border-left: 4px solid cyan;
-    border-radius: 6px;
-}
-
-.project-card h3 {
-    color: cyan;
-}
-
-.project-card a {
+.contact h3 {
     color: yellow;
-    text-decoration: none;
+    font-size: 22px;
 }
